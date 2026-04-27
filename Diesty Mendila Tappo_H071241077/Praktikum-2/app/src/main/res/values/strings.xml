@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Instagram Clone</string>
+
+    <!-- String untuk UI -->
+    <string name="default_username">username</string>
+    <string name="default_caption">Caption goes here...</string>
+
+    <!-- String untuk Content Description (Aksesibilitas) -->
+    <string name="desc_profile_image">Foto Profil Pengguna</string>
+    <string name="desc_post_image">Gambar Postingan</string>
+    <string name="desc_view_icon">Ikon Lihat</string>
+    <string name="desc_send_icon">Ikon Kirim</string>
+    <string name="desc_save_icon">Ikon Simpan</string>
+</resources>

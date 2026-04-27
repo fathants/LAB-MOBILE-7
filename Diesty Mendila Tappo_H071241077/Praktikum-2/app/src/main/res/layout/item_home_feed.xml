@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:paddingBottom="15dp">
+
+    <!-- HEADER: Avatar + Username + More -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <!-- Avatar (klik -> Profile) -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_avatar"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:clickable="true"
+            android:focusable="true"
+            app:cardCornerRadius="17.5dp"
+            app:cardElevation="0dp">
+            <ImageView
+                android:id="@+id/iv_profile_home"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/foto_profil"
+                android:contentDescription="Profil" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Username + sponsored label -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_username_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="username"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+        <!-- Titik tiga (more) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="•••"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:paddingStart="10dp"
+            android:paddingEnd="5dp" />
+
+    </LinearLayout>
+
+    <!-- GAMBAR FEED -->
+    <ImageView
+        android:id="@+id/iv_feed_home"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/feed1"
+        android:contentDescription="Feed" />
+
+    <!-- ACTION BUTTONS: Like, Comment, Share, Bookmark -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+
+        <!-- Like -->
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@android:drawable/ic_menu_view"
+            app:tint="#FFFFFF"
+            android:contentDescription="Suka" />
+
+        <!-- Comment -->
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="15dp"
+            android:src="@android:drawable/ic_menu_search"
+            app:tint="#FFFFFF"
+            android:contentDescription="Komentar" />
+
+        <!-- Share -->
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="15dp"
+            android:src="@android:drawable/ic_menu_send"
+            app:tint="#FFFFFF"
+            android:contentDescription="Bagikan" />
+
+        <!-- Spacer -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <!-- Bookmark -->
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@android:drawable/btn_star_big_off"
+            app:tint="#FFFFFF"
+            android:contentDescription="Simpan" />
+
+    </LinearLayout>
+
+    <!-- CAPTION: "username caption..." -->
+    <TextView
+        android:id="@+id/tv_caption_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:text="username Caption di sini..."
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+</LinearLayout>

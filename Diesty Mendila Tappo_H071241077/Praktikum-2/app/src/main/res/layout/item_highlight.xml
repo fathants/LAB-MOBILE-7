@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="8dp"
+    android:paddingBottom="5dp">
+
+    <!-- Lingkaran highlight -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:cardCornerRadius="32.5dp"
+        app:cardBackgroundColor="#333333"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/iv_highlight"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:padding="2dp"
+            android:src="@drawable/hl1"
+            android:contentDescription="Highlight" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Nama highlight -->
+    <TextView
+        android:id="@+id/tv_highlight_name"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Highlight"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp" />
+
+</LinearLayout>
