@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Top Bar: Konsisten 80dp -->
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingHorizontal="16dp">
+
+        <ImageView
+            android:id="@+id/ivClose"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/keyboard_arrow_down"
+            android:rotation="90"
+            app:tint="#FFFFFF" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ivClose"
+            android:layout_marginStart="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:text="Postingan baru"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <!-- Footer Button "Bagikan" -->
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:backgroundTint="#3858F6"
+        android:text="Bagikan"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="12dp" />
+
+    <!-- Main Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_upload"
+        android:layout_below="@id/topBar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <!-- Selected Image Preview (Centered & Square) -->
+            <ImageView
+                android:id="@+id/iv_post_image"
+                android:layout_width="260dp"
+                android:layout_height="260dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:scaleType="centerCrop"
+                android:background="#1A1A1A"
+                android:src="@drawable/ic_launcher_background" />
+
+            <!-- Caption Input -->
+            <EditText
+                android:id="@+id/et_caption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="16dp"
+                android:hint="Tambahkan keterangan..."
+                android:textColor="#FFFFFF"
+                android:textColorHint="#888888"
+                android:background="@android:color/transparent"
+                android:textSize="15sp"
+                android:gravity="top" />
+
+            <!-- Action Buttons (Polling & Input) -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp"
+                android:layout_marginTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#1A1A1A"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="8dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/dehaze" app:tint="#FFFFFF"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Polling" android:textColor="#FFFFFF" android:layout_marginStart="6dp" android:textSize="14sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#1A1A1A"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="8dp"
+                    android:layout_marginStart="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/search" app:tint="#FFFFFF"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Input" android:textColor="#FFFFFF" android:layout_marginStart="6dp" android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- List Menu Items -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="24dp">
+
+                <!-- Tambahkan Musik -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:paddingHorizontal="16dp">
+                    <ImageView android:id="@+id/icMusic" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerVertical="true" android:src="@drawable/repeat" app:tint="#FFFFFF"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/icMusic" android:layout_marginStart="16dp" android:text="Tambahkan musik" android:textColor="#FFFFFF" android:textSize="16sp"/>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_alignParentEnd="true" android:layout_centerVertical="true" android:src="@drawable/keyboard_arrow_down" android:rotation="-90" app:tint="#888888"/>
+                </RelativeLayout>
+
+                <!-- Music Suggestion -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="56dp"
+                    android:layout_marginTop="-4dp"
+                    android:layout_marginBottom="12dp"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#1A1A1A"
+                    android:paddingHorizontal="12dp"
+                    android:paddingVertical="6dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+                    <ImageView android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/repeat" app:tint="#FFFFFF"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Coco Expressions · Soft Girl Future" android:textColor="#FFFFFF" android:layout_marginStart="6dp" android:textSize="13sp"/>
+                </LinearLayout>
+
+                <!-- Tandai orang -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:paddingHorizontal="16dp">
+                    <ImageView android:id="@+id/icTag" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerVertical="true" android:src="@drawable/person" app:tint="#FFFFFF"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/icTag" android:layout_marginStart="16dp" android:text="Tandai orang" android:textColor="#FFFFFF" android:textSize="16sp"/>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_alignParentEnd="true" android:layout_centerVertical="true" android:src="@drawable/keyboard_arrow_down" android:rotation="-90" app:tint="#888888"/>
+                </RelativeLayout>
+
+                <!-- Tambahkan lokasi -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="56dp"
+                    android:paddingHorizontal="16dp">
+                    <ImageView android:id="@+id/icLocation" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerVertical="true" android:src="@drawable/person_pin" app:tint="#FFFFFF"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/icLocation" android:layout_marginStart="16dp" android:text="Tambahkan lokasi" android:textColor="#FFFFFF" android:textSize="16sp"/>
+                    <ImageView android:layout_width="20dp" android:layout_height="20dp" android:layout_alignParentEnd="true" android:layout_centerVertical="true" android:src="@drawable/keyboard_arrow_down" android:rotation="-90" app:tint="#888888"/>
+                </RelativeLayout>
+
+                <!-- Location Chips -->
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none"
+                    android:layout_marginTop="8dp"
+                    android:paddingHorizontal="16dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/circle" android:backgroundTint="#1A1A1A" android:paddingHorizontal="14dp" android:paddingVertical="8dp" android:text="Auditorium Prof. A. Amir..." android:textColor="#FFFFFF" android:textSize="14sp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" android:background="@drawable/circle" android:backgroundTint="#1A1A1A" android:paddingHorizontal="14dp" android:paddingVertical="8dp" android:text="Makassar" android:textColor="#FFFFFF" android:textSize="14sp"/>
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10dp" android:background="@drawable/circle" android:backgroundTint="#1A1A1A" android:paddingHorizontal="14dp" android:paddingVertical="8dp" android:text="Universitas" android:textColor="#FFFFFF" android:textSize="14sp"/>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="Orang yang Anda bagikan konten ini bisa melihat lokasi yang Anda tandai dan melihat konten ini di peta."
+                    android:textColor="#888888"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

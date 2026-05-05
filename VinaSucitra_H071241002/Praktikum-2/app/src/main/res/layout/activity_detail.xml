@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- ========================================== -->
+    <!-- TAMPILAN DETAIL POSTINGAN (FEED)          -->
+    <!-- ========================================== -->
+    <LinearLayout
+        android:id="@+id/layout_feed_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <!-- Top Bar Postingan -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:paddingHorizontal="16dp">
+            <ImageView
+                android:id="@+id/btnBackFeed"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dp"
+                android:src="@drawable/keyboard_arrow_down"
+                android:rotation="90"
+                app:tint="#FFFFFF" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/btnBackFeed"
+                android:layout_marginStart="24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="12dp"
+                android:text="Postingan"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <!-- User Header -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivProfileFeed"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:src="@drawable/vina" />
+            <TextView
+                android:id="@+id/tvUsernameFeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/ivProfileFeed"
+                android:layout_marginStart="10dp"
+                android:layout_centerVertical="true"
+                android:text="vina_sucitra024"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="14sp" />
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/more_vert"
+                app:tint="#FFFFFF" />
+        </RelativeLayout>
+
+        <!-- Main Image -->
+        <ImageView
+            android:id="@+id/ivMainImageFeed"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/home_feed_kota" />
+
+        <!-- Action Buttons -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/like" app:tint="#FFFFFF" />
+                <ImageView android:layout_width="26dp" android:layout_height="26dp" android:layout_marginStart="16dp" android:src="@drawable/alternate_email" app:tint="#FFFFFF" />
+                <ImageView android:layout_width="26dp" android:layout_height="26dp" android:layout_marginStart="16dp" android:src="@drawable/send" app:tint="#FFFFFF" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/bookmark"
+                app:tint="#FFFFFF" />
+        </RelativeLayout>
+
+        <!-- Caption Area -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="12dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Disukai oleh virda_ dan lainnya"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvCaptionFeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="#FFFFFF"
+                android:textSize="13sp"
+                tools:text="vina_sucitra024 I'm the Next Innovative Leader ✨" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- ========================================== -->
+    <!-- TAMPILAN DETAIL STORY / HIGHLIGHT         -->
+    <!-- ========================================== -->
+    <RelativeLayout
+        android:id="@+id/layout_story_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <!-- Story Image (Fullscreen) -->
+        <ImageView
+            android:id="@+id/ivMainImageStory"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_home_1" />
+
+        <!-- Top Header Overlay -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="40dp">
+
+            <View android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginHorizontal="10dp" android:background="#88FFFFFF" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivProfileStory"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/zar" />
+                <TextView
+                    android:id="@+id/tvStoryName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/ivProfileStory"
+                    android:layout_marginStart="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="m'girls"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/tvStoryName"
+                    android:layout_marginStart="8dp"
+                    android:layout_centerVertical="true"
+                    android:text="8 September 2024"
+                    android:textColor="#BBFFFFFF"
+                    android:textSize="12sp" />
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/more_vert"
+                    app:tint="#FFFFFF" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <!-- Bottom Action Overlay -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/tvCaptionStory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_margin="20dp"
+                android:text="bebbanya rtq"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#33FFFFFF"
+                    android:hint="Katakan sesuatu..."
+                    android:paddingHorizontal="16dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#BBFFFFFF"
+                    android:textSize="14sp" />
+
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginStart="16dp" android:src="@drawable/search" app:tint="#FFFFFF" />
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginStart="16dp" android:src="@drawable/photo_camera" app:tint="#FFFFFF" />
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginStart="16dp" android:src="@drawable/send" app:tint="#FFFFFF" />
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginStart="16dp" android:src="@drawable/more_vert" app:tint="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- Top Bar: 80dp agar aman dari notch -->
+    <RelativeLayout
+        android:id="@+id/topToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:paddingHorizontal="16dp">
+
+        <ImageView
+            android:id="@+id/btnBack"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:src="@drawable/keyboard_arrow_down"
+            android:rotation="90"
+            app:tint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/btnBack"
+            android:layout_marginStart="24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:text="vina_sucitra024"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/ivNotification"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_marginEnd="18dp"
+                android:src="@drawable/like"
+                app:tint="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/ivMenu"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:src="@drawable/more_vert"
+                app:tint="#FFFFFF" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topToolbar"
+        android:layout_above="@id/bottomNav">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="16dp">
+
+            <!-- Profile Header Section -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="86dp"
+                    android:layout_height="86dp"
+                    android:src="@drawable/vina" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/ivProfile"
+                    android:layout_marginStart="20dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="vina sucitra"
+                        android:textColor="#FFFFFF"
+                        android:textStyle="bold"
+                        android:textSize="15sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:id="@+id/tvPostCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="16sp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="postingan" android:textColor="#FFFFFF" android:textSize="13sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:id="@+id/tvFollowersCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1.572" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="16sp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="pengikut" android:textColor="#FFFFFF" android:textSize="13sp"/>
+                        </LinearLayout>
+
+                        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                            <TextView android:id="@+id/tvFriendsCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1212" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="16sp"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mengikuti" android:textColor="#FFFFFF" android:textSize="13sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!-- Bio Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="12dp">
+                <TextView android:id="@+id/tvBio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="trying to be yourself" android:textColor="#FFFFFF" android:textSize="14sp"/>
+                <TextView android:id="@+id/tvBio2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="🎓 student at Hasanuddin University" android:textColor="#FFFFFF" android:textSize="14sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Lihat terjemahan" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="14sp" android:layout_marginTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Threads & Music links -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+                <ImageView android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/alternate_email" app:tint="#FFFFFF"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" vina_sucitra" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="13sp"/>
+
+                <ImageView android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/repeat" app:tint="#FFFFFF" android:layout_marginStart="12dp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Everything u are · Hindia" android:textColor="#FFFFFF" android:textStyle="bold" android:textSize="13sp"/>
+            </LinearLayout>
+
+            <!-- Followed by -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="12dp"
+                android:gravity="center_vertical">
+                <RelativeLayout android:layout_width="40dp" android:layout_height="24dp">
+                    <de.hdodenhof.circleimageview.CircleImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/user_home_1" app:civ_border_width="1dp" app:civ_border_color="#000000"/>
+                    <de.hdodenhof.circleimageview.CircleImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/person" android:layout_marginStart="10dp" app:civ_border_width="1dp" app:civ_border_color="#000000"/>
+                </RelativeLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Diikuti oleh dilah_tnri, 0uyeen, dan 68 lainnya" android:textColor="#FFFFFF" android:textSize="12sp" android:layout_marginStart="4dp"/>
+            </LinearLayout>
+
+            <!-- Buttons Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp"
+                android:weightSum="10">
+
+                <Button android:id="@+id/btnMengikuti" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="4.3" android:text="Edit Profile" android:backgroundTint="#262626" android:textColor="#FFFFFF" android:textSize="13sp" android:textAllCaps="false" android:padding="0dp" app:cornerRadius="8dp"/>
+
+                <Button android:id="@+id/btnKirimPesan" android:layout_width="0dp" android:layout_height="36dp" android:layout_weight="4.3" android:layout_marginStart="6dp" android:text="Bagikan Profile" android:backgroundTint="#262626" android:textColor="#FFFFFF" android:textSize="13sp" android:textAllCaps="false" android:padding="0dp" app:cornerRadius="8dp"/>
+
+                <Button
+                    android:id="@+id/btnTambahTeman"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp"
+                    android:layout_weight="1.4"
+                    android:layout_marginStart="6dp"
+                    android:backgroundTint="#262626"
+                    android:padding="0dp"
+                    app:icon="@drawable/person_add"
+                    app:iconGravity="textStart"
+                    app:iconPadding="0dp"
+                    app:iconTint="#FFFFFF"
+                    app:cornerRadius="8dp"/>
+            </LinearLayout>
+
+            <!-- Highlights -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_highlights"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingBottom="10dp"
+                android:orientation="horizontal"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+            <!-- Tabs Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_marginTop="10dp">
+                <ImageView android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1" android:layout_gravity="center" android:src="@drawable/grid_on" app:tint="#FFFFFF"/>
+                <ImageView android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1" android:layout_gravity="center" android:src="@drawable/video_library" app:tint="#888888"/>
+                <ImageView android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1" android:layout_gravity="center" android:src="@drawable/person_pin" app:tint="#888888"/>
+            </LinearLayout>
+            <View android:layout_width="match_parent" android:layout_height="1dp" android:background="#333333"/>
+
+            <!-- Profile Posts Grid -->
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_profile_posts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+                app:spanCount="3" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Bottom Nav -->
+    <LinearLayout
+        android:id="@+id/bottomNav"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="#000000"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <ImageView android:id="@+id/btnGoToHome" android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1" android:src="@drawable/home" app:tint="#FFFFFF" />
+        <ImageView android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1" android:src="@drawable/search" app:tint="#FFFFFF" />
+        <ImageView android:id="@+id/btnGoToPost" android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1" android:src="@drawable/add_box" app:tint="#FFFFFF" />
+        <ImageView android:layout_width="0dp" android:layout_height="24dp" android:layout_weight="1" android:src="@drawable/video_library" app:tint="#FFFFFF" />
+        <de.hdodenhof.circleimageview.CircleImageView android:layout_width="0dp" android:layout_height="30dp" android:layout_weight="1" android:src="@drawable/zar" />
+    </LinearLayout>
+</RelativeLayout>
