@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- res/drawable/bg_genre_pill.xml -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle">
-    <solid android:color="@color/genre_pill_bg"/>
-    <corners android:radius="20dp"/>
-</shape>

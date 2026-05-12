@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Threads Dark Palette -->
+    <color name="background_dark">#000000</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#777777</color>
+    <color name="divider_dark">#262626</color>
+    <color name="input_bg_dark">#121212</color>
+    <color name="accent_threads_dark">#FFFFFF</color>
+    <color name="button_bg_dark">#FFFFFF</color>
+    <color name="button_text_dark">#000000</color>
+</resources>

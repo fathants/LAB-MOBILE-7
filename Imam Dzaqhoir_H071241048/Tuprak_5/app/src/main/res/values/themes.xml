@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Tuprak5" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_threads</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:textColorPrimary">@color/text_primary_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+        <item name="android:statusBarColor">@color/background_light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Theme.Tuprak5" parent="Base.Theme.Tuprak5" />
+    
+    <style name="ThreadsEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/bg_input_refined</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/text_primary_light</item>
+        <item name="android:textColorHint">@color/text_secondary_light</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="ThreadsButtonPrimary" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/button_bg_light</item>
+        <item name="android:textColor">@color/button_text_light</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
