@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/ivSelectImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/button_bg"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_add"
+        android:contentDescription="Select Image" />
+
+    <EditText
+        android:id="@+id/etCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Tulis caption..."
+        android:textColor="@color/text_primary"
+        android:textColorHint="@color/text_hint"
+        android:backgroundTint="@color/text_secondary" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/ig_blue"
+        android:text="Bagikan"
+        android:textColor="@color/white"
+        android:textAllCaps="false" />
+
+</LinearLayout>
