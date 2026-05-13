@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#BB86FC</color>
+    <color name="primary_dark">#9A67EA</color>
+    <color name="primary_light">#2D2D2D</color>
+    <color name="accent">#CF6679</color>
+    <color name="genre_chip">#7C6BC0</color>
+    <color name="background">#121212</color>
+    <color name="card_background">#1E1E1E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#F0F0F0</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="star_color">#FFD700</color>
+    <color name="heart_color">#CF6679</color>
+    <color name="switch_track_color">#555555</color>
+    <color name="header_background">#1C1C1E</color>
+    <color name="header_text">#FFFFFF</color>
+    <color name="search_background">#2C2C2E</color>
+    <color name="search_text">#FFFFFF</color>
+    <color name="search_hint">#888888</color>
+    <color name="bottom_nav_background">#1C1C1E</color>
+    <color name="bottom_nav_icon">#FFFFFF</color>
+    <color name="nav_item_color">#BB86FC</color>
+</resources>
