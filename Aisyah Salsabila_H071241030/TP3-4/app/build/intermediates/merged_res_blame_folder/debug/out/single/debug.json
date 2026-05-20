@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_matalahmu.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\matalahmu.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\layout_fragment_add_book.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\layout\\fragment_add_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\ic_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\ic_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_tity.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\tity.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_atomichabits.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\atomichabits.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_cover_placeholder.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\cover_placeholder.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_lordoftheflies.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\lordoftheflies.jpg"
+    },
+    {
+        "merged": "com.example.BukaMata.app-merged_res-32:/layout_fragment_home.xml.flat",
+        "source": "com.example.BukaMata.app-main-34:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_dune.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\dune.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_ic_app_logo.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\ic_app_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_tokilla.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\tokilla.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_thegreatgatsby.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\thegreatgatsby.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_genre_tag_bg.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\genre_tag_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_hailmarry.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\hailmarry.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_pys.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\pys.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_search.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\search.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_spinner_bg.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\spinner_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_ic_favorite_border.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\ic_favorite_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_ic_favorite_filled.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\ic_favorite_filled.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_bg_genre_badge.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\bg_genre_badge.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_themidnightlibrary.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\themidnightlibrary.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_prideandprejudice.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\prideandprejudice.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\layout_fragment_favorites.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\layout\\fragment_favorites.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\layout_item_book.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\layout\\item_book.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_bravenewworld.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\bravenewworld.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_thealchemist.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\thealchemist.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_davincicode.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\davincicode.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_thehobbit.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\thehobbit.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\color_nav_color_selector.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\color\\nav_color_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\drawable_harrypotter.jpg.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\drawable\\harrypotter.jpg"
+    },
+    {
+        "merged": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-merged_res-32:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\aisyah salsabila\\.gradle\\daemon\\8.7\\com.example.BukaMata.app-main-34:\\layout\\activity_main.xml"
+    }
+]

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue_primary">#00A8E8</color>
+    <color name="blue_light">#E6F7FD</color>
+    <color name="text_main">#1E293B</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_soft">#F8FBFD</color>
+    <color name="like_active">#FF4D6D</color>
+    <color name="like_inactive">#B0B7C3</color>
+
+</resources>
